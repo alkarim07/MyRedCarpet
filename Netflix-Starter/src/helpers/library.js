@@ -1,6 +1,6 @@
 import titanicS from "../images/titanicScene.png";
 import tita from "../images/tit.png";
-import movieLogo from "../images/movieLogo.png";
+import movielogo from "../images/movieLogo.png";
 
 export const Movies = [
     {
