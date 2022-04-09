@@ -16,3 +16,4 @@ export const Movies = [
         Duration: "3h 14min",
     },
 ];
+

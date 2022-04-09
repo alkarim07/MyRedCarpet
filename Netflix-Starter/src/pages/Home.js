@@ -8,8 +8,8 @@ import { Movies } from '../helpers/library';
 
 const Home = () => {
 
-return(
-  <>
+return (
+    <>
   <div className="logo">
     <Logo />
   </div>
@@ -23,15 +23,16 @@ return(
         <div className="scene">
           <img src={movies[0].Scene} className="sceneimg"></img>
           <img className="sceneLogo" src={movies[0].Logo}></img>
-          <p className="SceneDesc">{movies[0].Description</p>
+          <p className="SceneDesc">{movies[0].Description}</p>
         </div>
       <Tab tabkey={2} tabName={"Series"} isDisabled={true}></Tab>
       <Tab tabkey={3} tabName={"MyList"}></Tab>
     </TabList>
      
   </div>
-  </>
-)
-}
+ 
+    </>
+  );
+};
 
 export default Home;
