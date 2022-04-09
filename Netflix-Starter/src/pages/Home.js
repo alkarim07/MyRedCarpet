@@ -21,16 +21,16 @@ return (
     <TabList defaultActiveKey={1} tabStyle="bar">
       <Tab tabkey={1} tabName={"Movies"}></Tab>
         <div className="scene">
-          <img src={movies[0].Scene} className="sceneimg"></img>
-          <img className="sceneLogo" src={movies[0].Logo}></img>
-          <p className="SceneDesc">{movies[0].Description}</p>
+          <img className="sceneImg" src={Movies[0].Scene}></img>
+          <img className="sceneLogo" src={Movies[0].Logo}></img>
+          <p className="SceneDesc">{Movies[0].Description}</p>
         </div>
       <Tab tabkey={2} tabName={"Series"} isDisabled={true}></Tab>
       <Tab tabkey={3} tabName={"MyList"}></Tab>
     </TabList>
      
   </div>
- 
+   
     </>
   );
 };
