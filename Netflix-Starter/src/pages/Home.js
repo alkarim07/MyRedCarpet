@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import { Logo } from '../images/Netflix';
 import { ConnectButton, Icon, TabList, Tab } from 'web3uikit';
-import { Movies } from '../helpers/Library.js';
+import { movies } from "../helpers/library";
 
 const Home = () => {
 
