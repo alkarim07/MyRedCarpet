@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import { Logo } from '../images/Netflix';
 import { ConnectButton, Icon, TabList, Tab } from 'web3uikit';
-
+import { Movies } from '../helpers/Library';
 
 const Home = () => {
 
@@ -18,8 +18,8 @@ return(
   </div>
   <div className="topBanner">
     <TabList defaultActiveKey={1} tabStyle="bar">
-      <Tab tabkey={1} tabName={"Movies"} isDisabled={true}></Tab>
-      <Tab tabkey={2} tabName={"Series"}></Tab>
+      <Tab tabkey={1} tabName={"Movies"}></Tab>
+      <Tab tabkey={2} tabName={"Series"} isDisabled={true}></Tab>
       <Tab tabkey={3} tabName={"MyList"}></Tab>
     </TabList>
      
