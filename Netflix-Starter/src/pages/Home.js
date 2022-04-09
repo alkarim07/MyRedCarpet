@@ -14,18 +14,12 @@ return (
     <Logo />
   </div>
   <div className="connect">
-    <Icon fill='#ffffff' size={24} svg="bell" />
+  <Icon fill='#ffffff' size={24} svg="bell"></Icon>
     <ConnectButton />
   </div>
   <div className="topBanner">
     <TabList defaultActiveKey={1} tabStyle="bar">
-      <Tab tabkey={1} tabName={"Movies"}>
-        <div className="scene">
-          <img className="sceneImg" src={Movies[0].Scene}></img>
-          <img className="sceneLogo" src={Movies[0].Logo}></img>
-          <p className="SceneDesc">{Movies[0].Description}</p>
-        </div>
-      </Tab>
+      <Tab tabkey={1} tabName={"Movies"}></Tab>
       <Tab tabkey={2} tabName={"Series"} isDisabled={true}></Tab>
       <Tab tabkey={3} tabName={"MyList"}></Tab>
     </TabList>
