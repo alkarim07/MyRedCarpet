@@ -19,7 +19,7 @@ return(
   </div>
   <div className="topBanner">
     <TabList defaultActiveKey={1} tabStyle="bar">
-      <Tab tabkey={1} tabName={"Movies"}>
+      <Tab tabkey={1} tabName={"Movies"}></Tab>
     </TabList>
      
   </div>
